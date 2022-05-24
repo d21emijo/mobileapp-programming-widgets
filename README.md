@@ -29,7 +29,7 @@ den andra gröna "lådan" med en kanpp i.
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 ```
-i den första constraintlayouten ovan där färgen är röd har bild, rating och text -views nestlats in i activity_main.xml filen. 
+i den första constraintlayouten ovan där färgen är röd har bild, rating och text -views nestlats in i activity_main.xml filen.
 
 ## constraint 2 grön -knapp
 ```
@@ -68,4 +68,4 @@ på samma sätt som i den röda constrainlayouten är också den gröna layouten
 
 för att justera hur dessa sitter i appen används constraints inom den lådan de tillhör och margins,
 (ex : android:layout_marginBottom="120dp", och app:layout_constraintTop_toBottomOf="@+id/constraintLayout">).
- 
+
